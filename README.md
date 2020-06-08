@@ -114,4 +114,4 @@ If you discover any security related issues, please email `atila.danvi@outlook.c
 
 ### License
 
-The MIT License. Please see [license file](LICENSE.md) for more information.
+The MIT License. Please see [license file](LICENSE) for more information.
