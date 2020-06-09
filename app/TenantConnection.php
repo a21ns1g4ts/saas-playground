@@ -4,5 +4,11 @@ namespace App;
 
 trait TenantConnection
 {
-    protected $connection = 'tenant_test';
+    /**
+     * @return string
+     */
+    public function getConnectionName(): string
+    {
+        return 'tenant_test';
+    }
 }
