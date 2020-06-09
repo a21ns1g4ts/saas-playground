@@ -8,12 +8,13 @@ class CreateTeamsTable extends Migration
 {
     public $tableName = 'teams';
 
+    protected $connection = 'tenant_test';
+
     public function up()
     {
-        Schema::create($this->tableName, function (Blueprint $table) {
+        Schema::connection($this->connection)->create($this->tableName, function (Blueprint $table) {
             $table->engine = 'InnoDB';
             $table->increments('id');
-            $table->unsignedInteger('tenant_id');
             $table->string('name', 45)->nullable();
             $table->nullableTimestamps();
         });

@@ -14,9 +14,4 @@ class Tenant extends Model
     {
         return $this->belongsToMany(User::class , 'profile_user');
     }
-
-    public function teams()
-    {
-        return $this->hasMany(Team::class);
-    }
 }

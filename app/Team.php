@@ -6,12 +6,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class Team extends Model
 {
-    protected $fillable = [
-        'name' , 'client_id'
-    ];
+    use TenantConnection;
 
-    public function tenant()
-    {
-        return $this->hasOne(Tenant::class);
-    }
+    protected $fillable = [
+        'name'
+    ];
 }
