@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateUsersHasProfilesTable extends Migration
+class CreateProfileUserTable extends Migration
 {
     public $tableName = 'profile_user';
 

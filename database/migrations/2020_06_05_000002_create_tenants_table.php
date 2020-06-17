@@ -15,8 +15,10 @@ class CreateTenantsTable extends Migration
             $table->increments('id');
             $table->string('name', 45)->nullable();
             $table->string('db_connection', 45)->nullable();
-            $table->string('db_password', 45)->nullable();
-            $table->string('db_host', 45)->nullable();
+            $table->string('db_name', 45)->nullable();
+            $table->string('db_host', 255)->nullable();
+            $table->string('db_password', 255)->nullable();
+            $table->string('db_port', 5)->nullable();
             $table->nullableTimestamps();
         });
     }

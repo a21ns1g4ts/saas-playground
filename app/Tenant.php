@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Tenant extends Model
 {
     protected $fillable = [
-        'name' , 'db_connection' , 'db_password' , 'db_host', 'db_port'
+        'name', 'db_connection', 'db_host', 'db_password', 'db_host', 'db_port'
     ];
 
     public function users()
