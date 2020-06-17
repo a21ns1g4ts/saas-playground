@@ -11,13 +11,10 @@ class CreateTenantsTable extends Migration
     public function up()
     {
         Schema::create($this->tableName, function (Blueprint $table) {
-            $table->engine = 'InnoDB';
-            $table->increments('id');
+            $table->bigIncrements('id');
             $table->string('name', 45)->nullable();
-            $table->string('db_connection', 45)->nullable();
-            $table->string('db_password', 45)->nullable();
-            $table->string('db_host', 45)->nullable();
-            $table->nullableTimestamps();
+            $table->timestamps();
+            $table->json('data')->nullable();
         });
     }
 

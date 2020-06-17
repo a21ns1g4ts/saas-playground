@@ -13,7 +13,6 @@ class CreateTeamsTable extends Migration
         Schema::create($this->tableName, function (Blueprint $table) {
             $table->engine = 'InnoDB';
             $table->increments('id');
-            $table->unsignedInteger('tenant_id');
             $table->string('name', 45)->nullable();
             $table->nullableTimestamps();
         });

@@ -7,11 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 class Team extends Model
 {
     protected $fillable = [
-        'name' , 'client_id'
+        'name'
     ];
-
-    public function tenant()
-    {
-        return $this->hasOne(Tenant::class);
-    }
 }
