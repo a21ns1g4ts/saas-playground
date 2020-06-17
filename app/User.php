@@ -28,6 +28,6 @@ class User extends Authenticatable
 
     public function profiles()
     {
-        return $this->belongsToMany(Profile::class);
+        return $this->belongsToMany(Profile::class, 'profile_user');
     }
 }

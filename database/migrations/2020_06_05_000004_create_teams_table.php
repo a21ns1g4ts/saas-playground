@@ -8,7 +8,7 @@ class CreateTeamsTable extends Migration
 {
     public $tableName = 'teams';
 
-    protected $connection = 'tenant_test';
+    protected $connection = 'tenant_01';
 
     public function up()
     {
