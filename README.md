@@ -1,10 +1,10 @@
 # saas-hybrid
 
-## A simple example hybrid multi-tenancy application
+## A multi-tenancy application
 
 [![MIT](https://badgen.net/github/license/micromatch/micromatch)](LICENSE)
 
-#### The philosophy of this application is how made a simple application with hybrid multi-tenancy.
+#### The philosophy of this application is be a simple example of a multi-tenancy application
 
 PRs and issues is welcome!
 
