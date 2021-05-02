@@ -1,14 +1,10 @@
-# saas-hybrid
-
-## A simple example hybrid multi-tenancy application
+# saas-playground
 
 [![MIT](https://badgen.net/github/license/micromatch/micromatch)](LICENSE)
 
-#### The philosophy of this application is how made a simple application with hybrid multi-tenancy.
-
 PRs and issues is welcome!
 
-### Requirements 
+### Requirements
 
 * PHP >= 7.2.5
 * Composer PHP >= 1.9.0
@@ -27,23 +23,23 @@ PHP extensions:
 
 Supported databases
 
- * MySQL 5.6+
- * PostgreSQL 9.4+
- * SQLite 3.8.8+
- * SQL Server 2017+
+* MySQL 5.6+
+* PostgreSQL 9.4+
+* SQLite 3.8.8+
+* SQL Server 2017+
 
 ### Installation
 
 Clone the repository
 
 ```bash
-git clone https://github.com/Atiladanvi/saas-hybrid.git
+git clone https://github.com/Atiladanvi/saas-playground.git
 ```
 
 Switch to the repo folder
 
 ```bash
-cd saas-hybrid
+cd saas-playground
 ```
 
 Install all the dependencies using composer
@@ -81,7 +77,7 @@ Clean the application cache
 php artisan optimize 
 ```
 
-Run the database migrations and seeders 
+Run the database migrations and seeders
 
 ```bash
 php artisan migrate --seed
@@ -95,17 +91,9 @@ php artisan serve
 
 You can now access the server at http://localhost:8000
 
-### Changelog
-
-Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
-
 ### Contributing
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
-
-### Security
-
-If you discover any security related issues, please email `atila.danvi@outlook.com` instead of using the issue tracker.
 
 ### Credits
 
