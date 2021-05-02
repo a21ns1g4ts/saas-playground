@@ -1,10 +1,6 @@
-# saas-hybrid
-
-## A multi-tenancy application
+# saas-playground
 
 [![MIT](https://badgen.net/github/license/micromatch/micromatch)](LICENSE)
-
-#### The philosophy of this application is be a simple example of a multi-tenancy application
 
 PRs and issues is welcome!
 
@@ -37,13 +33,13 @@ Supported databases
 Clone the repository
 
 ```bash
-git clone https://github.com/Atiladanvi/saas-hybrid.git
+git clone https://github.com/Atiladanvi/saas-playground.git
 ```
 
 Switch to the repo folder
 
 ```bash
-cd saas-hybrid
+cd saas-playground
 ```
 
 Install all the dependencies using composer
@@ -95,17 +91,9 @@ php artisan serve
 
 You can now access the server at http://localhost:8000
 
-### Changelog
-
-Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
-
 ### Contributing
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
-
-### Security
-
-If you discover any security related issues, please email `atila.danvi@outlook.com` instead of using the issue tracker.
 
 ### Credits
 
