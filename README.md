@@ -4,7 +4,7 @@
 
 PRs and issues is welcome!
 
-### Requirements 
+### Requirements
 
 * PHP >= 7.2.5
 * Composer PHP >= 1.9.0
@@ -23,10 +23,10 @@ PHP extensions:
 
 Supported databases
 
- * MySQL 5.6+
- * PostgreSQL 9.4+
- * SQLite 3.8.8+
- * SQL Server 2017+
+* MySQL 5.6+
+* PostgreSQL 9.4+
+* SQLite 3.8.8+
+* SQL Server 2017+
 
 ### Installation
 
@@ -77,7 +77,7 @@ Clean the application cache
 php artisan optimize 
 ```
 
-Run the database migrations and seeders 
+Run the database migrations and seeders
 
 ```bash
 php artisan migrate --seed
